@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class PosScreen extends StatelessWidget {
+  const PosScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Punto de Venta'),
+      ),
+      body: const Center(
+        child: Text('POS - Punto de Venta'),
+      ),
+    );
+  }
+}

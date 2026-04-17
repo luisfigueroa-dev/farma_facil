@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class RecetasScreen extends StatelessWidget {
+  const RecetasScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Recetas'),
+      ),
+      body: const Center(
+        child: Text('Control de Recetas Médicas'),
+      ),
+    );
+  }
+}
